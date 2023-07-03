@@ -1,3 +1,4 @@
+## T230621 Member Initialization
 这次谈成员初始化。
 
 C++存在3种方式初始化成员，分别为：
