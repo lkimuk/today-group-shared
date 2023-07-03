@@ -2,4 +2,4 @@
 Modern C++ knowledge sharing.
 
 ## TGS
-- [T230621 Member Initialization](https://github.com/lkimuk/cpparticles/blob/main/2022/articles-videos/220204.md)
+- [T230621 Member Initialization](https://github.com/lkimuk/today-group-shared/blob/main/sharing/T230621%20Member%20Initialization.md)
