@@ -8,3 +8,6 @@ Modern C++ knowledge sharing.
 - [T230531 Polymorphism](https://github.com/lkimuk/today-group-shared/blob/main/sharing/T230531-Polymorphism.md)
 - [T230612 Variable initialization](https://github.com/lkimuk/today-group-shared/blob/main/sharing/T230612-Variable-initialization.md)
 - [T230621 Member Initialization](https://github.com/lkimuk/today-group-shared/blob/main/sharing/T230621-Member-Initialization.md)
+- [T230705 Complex C++](https://github.com/lkimuk/today-group-shared/blob/main/sharing/T230705-Complex-cpp.md)
+- [inline constexpr](https://github.com/lkimuk/today-group-shared/blob/main/sharing/T230707-inline-constexpr.md)
+- [T230713 Dispatch table](https://github.com/lkimuk/today-group-shared/blob/main/sharing/T230713-Dispatch-table.md)
