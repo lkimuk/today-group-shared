@@ -1,4 +1,4 @@
-## inline constexpr
+## T230707 inline constexpr
 今天谈谈 inline constexpr。
 
 上次讲过 static constexpr，它用于 function scope/class scope ，此时 constexpr 会隐式 inline (class scope)，static 则表示存储时期为 static。组合起来使用，一是能够直接在类中初始化通过 default member initializer 定义静态成员，二是所有对象能够共享数据，三是可以强保证发生于编译期，四是能够强保证 Lambdas 隐式捕获此数据。同时，也能够解决 SIOF。
