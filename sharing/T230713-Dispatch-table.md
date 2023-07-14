@@ -24,13 +24,13 @@ int main(){
     { '*', [](double a, double b) { return a * b;} },
     { '/', [](double a, double b) { return a / b;} } };
 
-  std::print("10.24 + 4.5 = {}\n", dispatch_table['+'](10.24, 5.20));
-  std::print("10.24 - 4.5 = {}\n", dispatch_table['-'](10.24, 5.20));
-  std::print("10.24 * 4.5 = {}\n", dispatch_table['*'](10.24, 5.20));
-  std::print("10.24 / 4.5 = {}\n", dispatch_table['/'](10.24, 5.20));
+  std::print("10.24 + 5.20 = {}\n", dispatch_table['+'](10.24, 5.20));
+  std::print("10.24 - 5.20 = {}\n", dispatch_table['-'](10.24, 5.20));
+  std::print("10.24 * 5.20 = {}\n", dispatch_table['*'](10.24, 5.20));
+  std::print("10.24 / 5.20 = {}\n", dispatch_table['/'](10.24, 5.20));
 
   dispatch_table['^'] = [](double a, double b) { return std::pow(a,b); };
-  std::print("3.5 ^ 4.5= {}\n", dispatch_table['^'](10.24, 5.20));
+  std::print("10.24 ^ 5.20 = {}\n", dispatch_table['^'](10.24, 5.20));
 };
 ```
 
